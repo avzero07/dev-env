@@ -1,2 +1,2 @@
 # dev-env
-Various RC Files to Customize my Dev Env
+Various Files/Configs to Customize my Dev Env
