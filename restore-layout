@@ -1,0 +1,17 @@
+#!/bin/sh
+
+for layout in ~/.i3layout/work/*; do
+    i3-msg "workspace $(basename "$layout" .json); append_layout $layout"
+done
+
+(pavucontrol &)
+(arandr &)
+(firefox &)
+(vpnui &)
+(i3-sensible-terminal &)
+(i3-sensible-terminal &)
+(i3-sensible-terminal &)
+(i3-sensible-terminal &)
+(i3-sensible-terminal &)
+(google-chrome &)
+(mattermost-desktop &)
